@@ -1,8 +1,7 @@
 /*
-Debemos lograr tomar el importe por ID ,
-transformarlo a entero (parseInt), luego
-mostrar el importe con un aumento del 10 %
-en el cuadro de texto "RESULTADO".*/
+al ejercicio nueve (9), se  debe cambiar el porcentaje, 
+debe ser ingresado por prompt el porcentaje ,
+puede ser un numero del 1 al 100 de porcentaje de aumento.*/
 function mostrarAumento()
 {
 	let valorUnoingresado;
@@ -13,11 +12,12 @@ function mostrarAumento()
 	let incremento;
 	let sumaIncremeneto;
 
+	
 valorUnoingresado= document.getElementById('txtIdSueldo').value;
 sueldo = parseInt(valorUnoingresado);
-incremento= 0.1;
+incremento= prompt("Escribe el porcentaje (de 1 hasta 100)", "ingrese aquí");
 
-resultado = sueldo * incremento
+resultado = (sueldo * incremento) / 100
 sumaIncremeneto= resultado + sueldo
 
 
