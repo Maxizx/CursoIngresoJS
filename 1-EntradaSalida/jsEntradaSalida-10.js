@@ -7,7 +7,7 @@ function mostrarAumento()
 {
 
 	let importe;
-	let numero
+	let numero;
 	let descuento;
 	let total;
 	let importeTotal;
