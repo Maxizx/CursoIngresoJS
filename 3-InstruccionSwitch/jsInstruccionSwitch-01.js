@@ -22,11 +22,9 @@ switch(mesDelAño)
 		mensaje = "Felices fiesta!!!.";
 		break;
 
-	default:
-		mensaje = "Nada";
+
 
 }
-
 
 
 	alert(mensaje);
@@ -36,3 +34,5 @@ switch(mesDelAño)
 }//FIN DE LA FUNCIÓN
 
 //https://onlinegdb.com/218BhUWx-
+
+

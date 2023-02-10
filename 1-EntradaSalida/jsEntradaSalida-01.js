@@ -37,6 +37,7 @@ function mostrar()
 	let limitePeso;
 	let precioInicial;
 	let cantidadPersonas;
+	let nacionalidad;
 	//totales a calcular
 	let precioFinal;
 	let precioConPorcentaje;
@@ -65,6 +66,9 @@ function mostrar()
 	pesoDos = prompt("ingrese el; peso de su pareja","ingrese aqui su peso");
 	numeroPesoDos = parseInt(pesoDos);
 
+	nacionalidad = prompt("Son de nacionalidad Argentina?","Si/No");
+
+
 	totalPeso= numeroPesoUno + numeroPesoDos;
 
 	
@@ -75,11 +79,41 @@ function mostrar()
 
 		mensaje="bienvenidos a Space x " +nombreParejaUno+ " y " +nombreParejaDos+ ", sus pesos son de "+numeroPesoUno +" y "+ numeroPesoDos+  " kilos cada uno , y sumados con " + totalPeso + " kilos";
 
-		if(arg)
+		if(nacionalidad== "Si" || nacionalidad == "si")
 		{	
 			precioInicial= 2000 * cantidadPersonas;
 
-			
+			if(totalPeso > 219 )
+			{
+				porcentaje= 10;
+			}
+			else
+			{
+				if(totalPeso > 199 )
+				{
+					porcentaje= 0
+				}
+				else
+				{
+					if(totalPeso > 179 )
+					{
+						porcentaje = -20;
+					}
+					else
+					{
+						if(totalPeso > 160 )
+						{
+							porcentaje= -40;
+						}
+						else
+						{
+							porcentaje= -50;
+						}
+					}
+				}
+				
+			}
+
 		}
 		else
 		{
