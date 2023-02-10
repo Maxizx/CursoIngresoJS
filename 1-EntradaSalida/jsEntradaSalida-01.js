@@ -155,12 +155,6 @@ function mostrar()
 		precioConPorcentaje= (precioInicial * porcentaje ) / 100;
 		precioFinal = precioInicial + precioConPorcentaje;
 
-		/*totalDescuento = (precioInicial * descuento ) / 100;
-	precioFinal = precioInicial - totalDescuento;
-
-	totalIncremento = (precioInicial * incremento) / 100;
-	precioFinal = precioFinal + totalIncremento;*/
-
 	mensajePrecio= " .El precio total del pasaje es de " + precioFinal;
 
 	mensajeFinal = mensaje + mensajePrecio;
@@ -176,3 +170,22 @@ function mostrar()
 
 	alert(mensajeFinal);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

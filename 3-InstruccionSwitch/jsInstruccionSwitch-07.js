@@ -28,3 +28,9 @@ switch(destinoIngresado)
 
 alert(mensaje);
 }//FIN DE LA FUNCIÓN
+
+
+
+
+
+
