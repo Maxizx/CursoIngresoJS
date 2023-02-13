@@ -63,11 +63,10 @@ switch(estacionIngresada)
 
 		switch(destinoIngresado)
 		{
-				case "Bariloche":
-				porcentaje= 10;
-				break;
+			case "Bariloche":
+			porcentaje= 10;
+			break;
 
-		
 			case "Mar del plata":
 				porcentaje= 10;
 				break;

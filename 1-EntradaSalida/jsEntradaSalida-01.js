@@ -155,6 +155,7 @@ function mostrar()
 		precioConPorcentaje= (precioInicial * porcentaje ) / 100;
 		precioFinal = precioInicial + precioConPorcentaje;
 
+
 	mensajePrecio= " .El precio total del pasaje es de " + precioFinal;
 
 	mensajeFinal = mensaje + mensajePrecio;
